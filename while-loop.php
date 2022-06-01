@@ -1,11 +1,11 @@
 <?php
 
 $a = 1;
-
+echo "<ul>";
 while ($a <= 10) {
-  echo "This is line number".$a."<br>";
+  echo "<li>"."This is line number".$a."</li>";
 
   $a++;
 }
-
+echo "</ul>";
  ?>
