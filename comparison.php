@@ -1,9 +1,11 @@
 <?php
 
- $age = 25;
+ $a = 25;
 
- if($age >= 18 xor $age <= 21){
-   echo "You car marry";
+ if($a == 25){
+   echo "They are equal";
  }
-
+else{
+  echo "It's not equal";
+}
  ?>
