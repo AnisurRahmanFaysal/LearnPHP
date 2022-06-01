@@ -2,11 +2,13 @@
 
 function hello($HBname="HB",$WFname="WF"){
 
-  echo "Hello EveryBody.<br> I'm ".$HBname ." ". $WFname . " is my love.Alhumdullah!";
+  $v = $HBname . $WFname;
+
+  return $v;
 
 }
 
 
-hello("Faysal","Shoshi");
+echo hello("Faysal","Shoshi");
 
  ?>
