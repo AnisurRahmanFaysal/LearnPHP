@@ -21,8 +21,8 @@ switch ($weekday) {
   case 6:
     echo "Today is sat";
   break;
-    case 7:
-  echo "Today is sat";
+  case 7:
+    echo "Today is sat";
   break;
 
 }
