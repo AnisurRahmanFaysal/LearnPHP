@@ -1,9 +1,11 @@
 <?php
 
-$a = 41;
-$b = 41;
+$a = 3;
+$b = 10;
+if($a < $b ){
+  echo "A is Smaller";
+}
 
-echo $a === $b;
-echo $a <=> $b;
+echo "Here is next echo";
 
  ?>
