@@ -1,7 +1,10 @@
 <?php
 
-for ($a=0; $a < 100; $a++) {
-  echo $a.")Hello<br>";
+for ($a=1; $a <= 100; $a+=10) {
+  for ($i= $a; $i < $a + 10; $i++) {
+    echo $i . " ";
+  }
+  echo "<br>";
 }
 
  ?>
