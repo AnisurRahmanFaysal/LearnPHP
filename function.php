@@ -1,12 +1,12 @@
 <?php
 
-function hello(){
+function hello($HBname="HB",$WFname="WF"){
 
-  echo "Hello EveryBody.<br>";
+  echo "Hello EveryBody.<br> I'm ".$HBname ." ". $WFname . " is my love.Alhumdullah!";
 
 }
 
-echo "Welcome<br>";
-hello();
-echo "I'm Faysal.";
+
+hello("Faysal","Shoshi");
+
  ?>
