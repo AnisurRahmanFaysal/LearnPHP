@@ -1,11 +1,9 @@
 <?php
 
-$a = 3;
-$b = 10;
-if($a < $b ){
-  echo "A is Smaller";
-}
+ $age = 25;
 
-echo "Here is next echo";
+ if($age >= 18 xor $age <= 21){
+   echo "You car marry";
+ }
 
  ?>
