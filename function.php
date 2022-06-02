@@ -1,10 +1,13 @@
 <?php
 
-function wow($name){
-  echo "Hello $name";
+function display($number){
+
+  if ($number<5) {
+    echo"$number<br>";// code...
+    display($number + 1);
+  }
+
 }
 
-$func = "wow";
-$func(",Sorry!");
-
+display(1);
  ?>
