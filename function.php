@@ -1,14 +1,11 @@
 <?php
 
-function hello($HBname="HB",$WFname="WF"){
-
-  $v = $HBname . $WFname;
-
-  return $v;
-
+function testing(&$string){
+  $string .=" And something extra.";
 }
 
-
-echo hello("Faysal","Shoshi");
+$str = "This is a string";
+testing($str);
+echo $str;
 
  ?>
