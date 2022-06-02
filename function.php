@@ -1,11 +1,10 @@
 <?php
 
-function testing(&$string){
-  $string .=" And something extra.";
+function wow($name){
+  echo "Hello $name";
 }
 
-$str = "This is a string";
-testing($str);
-echo $str;
+$func = "wow";
+$func(",Sorry!");
 
  ?>
