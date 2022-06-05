@@ -2,12 +2,11 @@
 
 $colors = ["10","blue","100.25"];
 
-echo $colors[0]."<br>";
-echo $colors[1]."<br>";
-echo $colors[2]."<br>";
+echo "<ul>";
 
-echo "<pre>";
-print_r($colors);
-echo "</pre>";
+for ($i=0; $i < 3 ; $i++) {
+  echo "<li> $colors[$i] </li>";
+}
 
+echo "</ul>";
  ?>
