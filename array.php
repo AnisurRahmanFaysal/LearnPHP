@@ -26,9 +26,21 @@ $marks = [
   ],
 
 ];
+echo "<table border='2px' cellpadding='5px' cellspacing='0'>
 
-echo "<pre>";
-print_r($marks);
-echo "</pre>";
+<tr>
+  <th>Student Name</th>
+  <th>Os</th>
+  <th>Os Lab</th>
+  <th>Toc</th>";
+foreach ($marks as $key => $value) {
+  echo "<tr>
+    <td>$key</td>";
+  foreach ($value as $value2) {
+    echo "<td> $value2 </td> ";
+  }
+  echo "<tr>";
+}
+
 
  ?>
