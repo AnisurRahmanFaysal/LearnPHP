@@ -1,14 +1,13 @@
 <?php
 
-$colors = [
-  "red" => 101,
-  "green" => 102,
-  "blue" =>103
+$emp = [
+  [1,"Khan","Manager",50000],
+  [2,"Faysal","Frontend Developer",300000],
+  [3,"Shoshi","Backend Developer",250000],
 ];
-echo "<ul>";
-foreach ($colors as $key => $value) {
-  echo "<li>$key = $value </li>";
-  echo "</ul>";
-}
+
+echo "<pre>";
+print_r($emp);
+echo "</pre>";
 
  ?>
