@@ -1,7 +1,11 @@
 <?php
 
-$food = ["Orange","Banana","Apple","Grapes"];
+$food = ["Orange","Banana","Apple","Grapes","55"];
 
-echo in_array('Apple', $food);
-
+if (in_array(55, $food, true)) {
+  echo "Find";
+}
+else {
+  echo "Not find";
+}
  ?>
