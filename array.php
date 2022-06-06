@@ -8,4 +8,6 @@ if (in_array(55, $food, true)) {
 else {
   echo "Not find";
 }
+
+echo array_search("Orange",$food);
  ?>
