@@ -6,6 +6,8 @@ $age = [
     "elon" => 22
   ];
 
+$age["elon"] = 50;
+
   echo "<pre>";
    var_dump($age);
    echo "</pre>";
