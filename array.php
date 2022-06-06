@@ -1,10 +1,17 @@
 <?php
 
-$fruit = ["orange","banana","apple"];
+$array1 = [
+  ['a'=>"red"],
+  ['b'=> "green","pink"]
 
-$color = ['a' => "red", 1 => "green"];
+];
 
-$newArray = array_replace($fruit, $color);
+$array2 = [
+  ['a'=>"yellow"],
+  ['b'=> "black"]
+];
+
+$newArray = array_replace_recursive($array1, $array2);
 
 echo "<pre>";
 Print_r($newArray);
