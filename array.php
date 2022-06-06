@@ -1,15 +1,13 @@
 <?php
 
-$age = [
-    1 => 25,
-    "steve" => 28,
-    "elon" => 22
-  ];
+$colors = [
+  "red",
+  "green",
+  "blue"
+];
 
-$age["elon"] = 50;
-
-  echo "<pre>";
-   var_dump($age);
-   echo "</pre>";
+foreach ($colors as $value) {
+  echo $value . "<br>";
+}
 
  ?>
