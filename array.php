@@ -1,37 +1,34 @@
 <?php
 
-$emp = [
-  [1,"Khan","Manager",50000],
-  [2,"Faysal","Frontend Developer",300000],
-  [3,"Shoshi","Backend Developer",250000],
+$marks = [
+  "Faysal" => [
+    "Os" => 50,
+    "Os Lab" => 40,
+    "Toc" => 45,
+  ],
+
+  "Nishat" => [
+    "Os" => 70,
+    "Os Lab" => 80,
+    "Toc" => 950,
+  ],
+
+  "Arrimunnaher" => [
+    "Os" => 98,
+    "Os Lab" => 89,
+    "Toc" => 82,
+  ],
+
+  "Shoshi" => [
+    "Os" => 90,
+    "Os Lab" => 80,
+    "Toc" => 70,
+  ],
+
 ];
 
-for ($row=0; $row < 3; $row++) {
-  for ($cal=0; $cal < 3; $cal++) {
-    echo $emp[$row][$cal]. " ";
-  }
-  echo "<br>";
-}
-echo "<table border='1px' cellpadding='5px' cellspacing='0'>";
-
-echo "<tr>
-      <th>Emp ID.</th>
-      <th>Name</th>
-      <th>Degination</th>
-      <th>Salary</th>
-    </tr>";
-
-foreach ($emp as $value) {
-  echo "<tr>";
-  foreach ($value as $value1) {
-    echo "<td> $value1 </td>";
-  }
-  echo "</tr>";
-}
-echo "</table>";
-
 echo "<pre>";
-print_r($emp);
+print_r($marks);
 echo "</pre>";
 
  ?>
