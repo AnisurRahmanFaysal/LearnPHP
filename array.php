@@ -1,13 +1,12 @@
 <?php
 
-$food = ["Orange","Banana","Apple","Grapes","55"];
+$fruit = ["orange","banana","apple"];
+$veg = ["carrot","pea"];
+$color = ["red","green"];
 
-if (in_array(55, $food, true)) {
-  echo "Find";
-}
-else {
-  echo "Not find";
-}
+$newArray = array_replace($fruit, $veg, $color);
 
-echo array_search("Orange",$food);
+echo "<pre>";
+Print_r($newArray);
+echo "</pre>";
  ?>
