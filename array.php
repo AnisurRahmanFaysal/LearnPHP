@@ -1,46 +1,24 @@
 <?php
 
-$marks = [
-  "Faysal" => [
-    "Os" => 50,
-    "Os Lab" => 40,
-    "Toc" => 45,
-  ],
-
-  "Nishat" => [
-    "Os" => 70,
-    "Os Lab" => 80,
-    "Toc" => 950,
-  ],
-
-  "Arrimunnaher" => [
-    "Os" => 98,
-    "Os Lab" => 89,
-    "Toc" => 82,
-  ],
-
-  "Shoshi" => [
-    "Os" => 90,
-    "Os Lab" => 80,
-    "Toc" => 70,
-  ],
-
+$emp = [
+  [1,"Faysal","Manager",500000],
+  [2,"Nishat","Frontend",500000],
+  [3,"Arimunnaher","Backend",800000],
+  [4,"Shoshi","Tester",200000],
 ];
-echo "<table border='2px' cellpadding='5px' cellspacing='0'>
 
-<tr>
-  <th>Student Name</th>
-  <th>Os</th>
-  <th>Os Lab</th>
-  <th>Toc</th>";
-foreach ($marks as $key => $value) {
-  echo "<tr>
-    <td>$key</td>";
-  foreach ($value as $value2) {
-    echo "<td> $value2 </td> ";
-  }
-  echo "<tr>";
+echo "<table border='2px' cellpadding='3px' cellspacing='0'>
+
+  <tr>
+    <th>Emp ID</th>
+    <th>Name</th>
+    <th>Designation</th>
+    <th>Salary</th>
+  </tr>";
+
+foreach ($emp as list($id,$name,$designtion,$salary)) {
+  echo "<tr> <td>$id</td> <td>$name</td> <td>$designtion</td> <td>$salary </td> </tr>";
 }
-
+echo "</table>";
 
  ?>
