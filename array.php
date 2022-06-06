@@ -1,10 +1,10 @@
 <?php
 
 $fruit = ["orange","banana","apple"];
-$veg = ["carrot","pea"];
-$color = ["red","green"];
 
-$newArray = array_replace($fruit, $veg, $color);
+$color = ['a' => "red", 1 => "green"];
+
+$newArray = array_replace($fruit, $color);
 
 echo "<pre>";
 Print_r($newArray);
