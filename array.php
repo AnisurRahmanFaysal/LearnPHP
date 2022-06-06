@@ -1,12 +1,13 @@
 <?php
 
-$colors = ["10","blue","100.25"];
+$age = [
+    'bill' => 25,
+    "steve" => 28,
+    "elon" => 22
+  ];
 
-echo "<ul>";
+  echo "<pre>";
+   var_dump($age);
+   echo "</pre>";
 
-for ($i=0; $i < 3 ; $i++) {
-  echo "<li> $colors[$i] </li>";
-}
-
-echo "</ul>";
  ?>
