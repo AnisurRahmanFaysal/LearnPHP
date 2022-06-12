@@ -1,12 +1,21 @@
 <?php
 
-$fruit = ["orange","banana","apple","grapes"];
+for ($i=0; $i < 5; $i++) { 
+    $array[$i] = (int)readline("Enter $i index array values :");
+}
 
-array_pop($fruit);
-array_push($fruit,"apple","guava","lemon");
+//var_dump($array);
+echo(max($array[0],$array[1],$array[2],$array[3],$array[4],))." is max value in this array\n";
 
-echo "<pre>";
-print_r($fruit);
-echo"</pre";
+foreach ($array as $key => $value) {
+    echo "$key => $value \n";
+}
+
+sort($array);
+
+foreach ($array as $value) {
+    echo $value."\n";
+   
+}
 
  ?>
