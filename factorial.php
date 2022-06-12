@@ -1,6 +1,6 @@
 <?php
 
-$num = 5;
+$num = (int)readline("Enter a Number: ");
 $counter = 1;
 
 if ($num > 0) {
