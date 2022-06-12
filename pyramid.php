@@ -7,10 +7,10 @@ for ($i=1; $i < $n; $i++) {
             echo "*";
         }
         else{
-            echo "&nbsp;&nbsp;";
+            echo " ";
         }
     }
-    echo "</br>";
+    echo "\n";
 }
 
 ?>
