@@ -1,10 +1,11 @@
 <?php
 
-$name = ["Faysal","Shoshi"];
-$age = ["25","23"];
-$mergeArray = array_combine($name,$age);
+$color = ["red","green","blue","yellow","brown"];
+
+$newArray = array_slice($color,-1,3);
 
 echo "<pre>";
-print_r($mergeArray);
+print_r($newArray);
 echo "</pre>";
+
  ?>
