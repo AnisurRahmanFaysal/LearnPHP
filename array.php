@@ -22,9 +22,11 @@
 
 $fruit = ['a' => "orange",'b' => "banana",'c' => "grapes"];
 
-$fruits = ['d' => "lemon",'e' => "mango"];
+$fruits = ['b' => "lemon",'e' => "mango"];
 
-$mergeArray = array_merge($fruit,$fruits);
+//$mergeArray = array_merge($fruit,$fruits);
+
+$mergeArray= $fruit + $fruits;
 
 echo "<pre>";
 print_r($mergeArray);
