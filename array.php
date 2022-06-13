@@ -20,7 +20,7 @@
 
 
 
-$fruit = ["orange","banana","grapes"];
+$fruit = ['a' => "orange",'b' => "banana",'c' => "grapes"];
 
 $fruits = ["lemon","mango"];
 
