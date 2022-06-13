@@ -22,10 +22,11 @@
 
 $fruit = ["orange","banana","grapes"];
 
-array_unshift($fruit,"apple","lemon");
-array_shift($fruit);
+$fruits = ["lemon","mango"];
+
+$mergeArray = array_merge($fruit,$fruits);
 
 echo "<pre>";
-print_r($fruit);
-echo"</pre>";
+print_r($mergeArray);
+echo "</pre>";
  ?>
