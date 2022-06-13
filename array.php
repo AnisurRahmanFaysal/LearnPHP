@@ -22,7 +22,8 @@
 
 $fruit = ['a' => "orange",'b' => "banana",'c' => "grapes"];
 
-$fruits = ['b' => "lemon",'e' => "mango"];
+$fruits = ['b' => ['color' => ['red','blue','green']],
+          'e' => "mango"];
 
 //$mergeArray = array_merge($fruit,$fruits);
 
