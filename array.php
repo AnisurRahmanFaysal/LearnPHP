@@ -26,7 +26,9 @@ $fruits = ['b' => "lemon",'e' => "mango"];
 
 //$mergeArray = array_merge($fruit,$fruits);
 
-$mergeArray= $fruit + $fruits;
+//$mergeArray= $fruit + $fruits;
+
+$mergeArray = array_merge_recursive($fruit,$fruits);
 
 echo "<pre>";
 print_r($mergeArray);
