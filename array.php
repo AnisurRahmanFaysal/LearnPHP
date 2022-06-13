@@ -22,7 +22,8 @@
 
 $fruit = ["orange","banana","grapes"];
 
-array_unshift($fruit,"apple");
+array_unshift($fruit,"apple","lemon");
+array_shift($fruit);
 
 echo "<pre>";
 print_r($fruit);
