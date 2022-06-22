@@ -4,7 +4,7 @@ $color = ["red","green","blue",];
 $coloradd = ["Yello","Gray"];
 
 //$a = []
-array_splice($color,0,2,$coloradd);
+array_splice($color,1);
 
 echo "<pre>";
 print_r($color);
