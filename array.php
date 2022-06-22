@@ -1,11 +1,8 @@
 <?php
 
-$color = ["red","green","blue","yellow","brown"];
+$color = ["red","green","blue",];
+$coloradd = ["Yello","Gray"];
 
-$newArray = array_slice($color,-1,4);
-
-echo "<pre>";
-print_r($newArray);
-echo "</pre>";
+$a = []
 
  ?>
