@@ -1,11 +1,12 @@
 <?php
 
-$color = ["first"=>"red","second"=>"green","third"=>"blue",];
+$color = ["a"=>"red","b"=>"green","c"=>"blue",];
+$color2 =["a"=>"red","b"=>"blue","c"=>"green",]
 
-$newArray = array_key_exists("third",$color);
+$new = array_intersect(array $color, array $color2);
 
 echo "<pre>";
-print_r($newArray);
+print_r($new);
 echo"</pre>";
 
  ?>
