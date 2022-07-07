@@ -1,12 +1,10 @@
 <?php
 
 $color = ["red","green","blue",];
-$coloradd = ["Yello","Gray"];
 
-//$a = []
-array_splice($color,1);
+$newArray = array_keys($color);
 
 echo "<pre>";
-print_r($color);
+print_r($newArray);
 echo"</pre>";
  ?>
